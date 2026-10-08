@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#190b15">
+<title>For Aduu — Happy Birthday</title>
+<style>
+:root{--bg:#120812;--bg2:#1b0c17;--pink:#f1a9c1;--pink2:#d979a0;--soft:#f8e9ef;--muted:#c8aeb9;--line:rgba(255,190,215,.16);--card:rgba(38,17,31,.62);--shadow:0 28px 90px rgba(0,0,0,.48)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#120812;color:var(--soft);font-family:Georgia,'Times New Roman',serif;line-height:1.8;overflow-x:hidden}
+body:before,body:after{content:"";position:fixed;inset:auto;pointer-events:none;z-index:-2;border-radius:50%;filter:blur(70px);opacity:.32}
+body:before{width:430px;height:430px;left:-150px;top:8%;background:#9b3d70}body:after{width:500px;height:500px;right:-190px;top:45%;background:#c45482}
+.ambient{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden;background:radial-gradient(circle at 50% 0,rgba(244,141,180,.13),transparent 34%),linear-gradient(180deg,#180a14 0%,#110810 55%,#0d070c 100%)}
+.dot{position:absolute;border-radius:50%;background:rgba(255,190,215,.28);filter:blur(1px);box-shadow:0 0 24px rgba(255,141,183,.28);animation:float 11s ease-in-out infinite}.d1{width:5px;height:5px;left:12%;top:18%}.d2{width:8px;height:8px;left:78%;top:12%;animation-delay:-4s}.d3{width:4px;height:4px;left:66%;top:36%;animation-delay:-7s}.d4{width:7px;height:7px;left:22%;top:61%;animation-delay:-2s}.d5{width:4px;height:4px;left:87%;top:72%;animation-delay:-6s}.d6{width:6px;height:6px;left:48%;top:83%;animation-delay:-8s}.d7{width:3px;height:3px;left:8%;top:88%;animation-delay:-1s}.d8{width:5px;height:5px;left:58%;top:17%;animation-delay:-5s}@keyframes float{50%{transform:translate3d(12px,-18px,0);opacity:.5}}
+.wrap{width:min(1080px,90%);margin:auto}.topbar{position:fixed;top:18px;right:18px;z-index:60}.music{border:1px solid var(--line);background:rgba(26,11,22,.72);backdrop-filter:blur(16px);color:var(--soft);border-radius:999px;padding:10px 15px;font:600 11px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}.music span{color:var(--pink)}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:120px 0 80px;position:relative}.hero:after{content:"";position:absolute;width:520px;height:260px;border-radius:50%;background:rgba(238,112,160,.12);filter:blur(80px);left:50%;top:42%;transform:translate(-50%,-50%);z-index:-1}.eyebrow,.section-kicker{font:600 10px system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--pink);opacity:.9}.hero h1{font-size:clamp(58px,11vw,125px);line-height:.87;margin:25px 0 28px;font-weight:400;letter-spacing:-.055em;text-shadow:0 10px 50px rgba(225,100,150,.18)}.hero p{max-width:650px;margin:auto;color:var(--muted);font-size:clamp(16px,2vw,20px)}.scroll{margin-top:48px;color:#c7a9b6;font:600 10px system-ui,sans-serif;letter-spacing:.25em;text-transform:uppercase}
+section{padding:115px 0;position:relative}.chapter{display:flex;align-items:center;gap:12px;margin-bottom:16px}.chapter .num{font:600 10px system-ui,sans-serif;letter-spacing:.18em;color:#f7c5d7}.chapter .line{height:1px;width:42px;background:linear-gradient(90deg,var(--pink),transparent)}.section-title{font-size:clamp(37px,5vw,66px);line-height:1.03;font-weight:400;letter-spacing:-.035em;margin:0 0 30px}.prose{max-width:760px;color:#eadce3;font-size:clamp(17px,1.9vw,20px)}.prose p{margin:0 0 24px}.quote{border-left:1px solid var(--pink);padding:5px 0 5px 25px;color:#fff1f6;font-style:italic;font-size:clamp(24px,3vw,35px);line-height:1.35;margin:38px 0}.glass{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+.photo-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:42px}.photo-grid figure{margin:0;overflow:hidden;border-radius:24px;background:#170b13;border:1px solid rgba(255,255,255,.08);position:relative;min-height:280px}.photo-grid figure:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,rgba(10,5,9,.58));pointer-events:none}.photo-grid img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}.photo-grid figure:hover img{transform:scale(1.035)}.photo-grid figure:nth-child(1){grid-column:span 7;min-height:440px}.photo-grid figure:nth-child(2){grid-column:span 5;min-height:440px}.photo-grid figure:nth-child(3){grid-column:span 4;min-height:520px}.photo-grid figure:nth-child(4){grid-column:span 8;min-height:520px}.photo-grid figure:nth-child(5){grid-column:span 4}.photo-grid figure:nth-child(6){grid-column:span 4}.photo-grid figure:nth-child(7){grid-column:span 4}.photo-grid figure:nth-child(8){grid-column:span 7;min-height:480px}.photo-grid figure:nth-child(9){grid-column:span 5;min-height:360px;background:#0e080c}.photo-grid figure:nth-child(9) img{object-fit:contain;background:#0e080c}.photo-grid figure:nth-child(10){grid-column:span 5}.caption{position:absolute;left:18px;right:18px;bottom:15px;z-index:2;color:#f5e4ea;font:500 11px/1.4 system-ui,sans-serif;letter-spacing:.04em}
+.timeline{display:grid;grid-template-columns:110px 1fr;gap:26px;max-width:820px}.timeline .label{font:600 10px/1.5 system-ui,sans-serif;letter-spacing:.16em;color:var(--pink);text-transform:uppercase;padding-top:7px}.timeline .body{padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:28px}.timeline h3{font-size:26px;font-weight:400;margin:0 0 8px}.timeline p{margin:0;color:var(--muted)}
+.audio-reveal{max-width:760px;margin:auto}.audio-card{padding:38px;text-align:center;background:radial-gradient(circle at 50% 0,rgba(241,169,193,.15),transparent 55%),rgba(31,13,25,.72)}.audio-card h3{font-size:31px;font-weight:400;margin:0 0 8px}.audio-card p{color:var(--muted);max-width:500px;margin:0 auto}.audio-card audio{width:100%;margin-top:22px;filter:sepia(.2) saturate(.7)}
+.lock{max-width:760px;margin:auto;text-align:center}.lockbox{padding:42px;background:radial-gradient(circle at 50% 0,rgba(241,169,193,.13),transparent 58%),rgba(27,11,21,.72)}.question{font-size:clamp(25px,4vw,38px);line-height:1.25}.answer{display:flex;gap:10px;max-width:440px;margin:25px auto 0}.answer input{flex:1;min-width:0;border:1px solid var(--line);background:rgba(10,5,9,.65);color:#fff;border-radius:14px;padding:14px 16px;outline:none}.answer input:focus{border-color:var(--pink);box-shadow:0 0 0 3px rgba(241,169,193,.08)}.answer button,.primary{border:0;background:linear-gradient(135deg,#f2b1c7,#d9789f);color:#28101c;border-radius:14px;padding:13px 21px;font-weight:700}.hint{min-height:25px;margin:12px 0 0;color:#d7b9c6;font:500 12px system-ui,sans-serif}.video-wrap{display:none;margin-top:30px}.video-wrap.show{display:block;animation:rise .7s ease both}.video-wrap video{display:block;width:100%;max-height:70vh;object-fit:contain;background:#050305;border-radius:22px;border:1px solid var(--line)}.unlocked{color:#f2b7cb;font:600 10px system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;margin:12px 0}
+.final{text-align:center;padding:135px 0 155px}.divider{width:70px;height:1px;background:linear-gradient(90deg,transparent,var(--pink),transparent);margin:0 auto 35px}.signature{font-size:clamp(29px,5vw,58px);font-style:italic;line-height:1.25;max-width:820px;margin:25px auto}.tiny{color:#a98d9b;font:500 11px system-ui,sans-serif}.fade{opacity:0;transform:translateY(28px);transition:opacity .95s ease,transform .95s ease}.fade.in{opacity:1;transform:none}
+.modal{position:fixed;inset:0;background:rgba(11,4,9,.82);backdrop-filter:blur(18px);display:grid;place-items:center;z-index:100;padding:24px}.modal.hidden{display:none}.modal-card{width:min(600px,100%);text-align:center;padding:46px 30px;border:1px solid rgba(255,177,205,.24);border-radius:32px;background:radial-gradient(circle at 50% 0,rgba(238,105,154,.18),transparent 60%),linear-gradient(160deg,#291322,#10080e);box-shadow:var(--shadow)}.modal-card .mini{font:600 10px system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--pink)}.modal-card h2{font-size:clamp(44px,8vw,78px);font-weight:400;line-height:.94;margin:18px 0}.modal-card p{color:var(--muted);max-width:450px;margin:0 auto 27px}.heart{display:inline-block;animation:pulse 1.6s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.12)}}@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@media(max-width:760px){section{padding:82px 0}.wrap{width:min(92%,680px)}.hero{min-height:94vh}.photo-grid{grid-template-columns:1fr}.photo-grid figure,.photo-grid figure:nth-child(n){grid-column:auto;min-height:360px}.photo-grid figure:nth-child(9){min-height:270px}.timeline{grid-template-columns:1fr;gap:5px}.timeline .body{margin-bottom:20px}.answer{flex-direction:column}.answer button{width:100%}.topbar{top:10px;right:10px}.modal-card{padding:38px 22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.dot,.heart{animation:none}.fade{transition:none}}
+
+/* V3 premium layer */
+:root{--glow:rgba(255,128,180,.24)}
+html{scroll-padding-top:80px}
+body{background-attachment:fixed}
+body:before{animation:drift1 18s ease-in-out infinite alternate}
+body:after{animation:drift2 22s ease-in-out infinite alternate}
+@keyframes drift1{to{transform:translate(55px,35px) scale(1.12)}}
+@keyframes drift2{to{transform:translate(-45px,-30px) scale(.92)}}
+.intro{position:fixed;inset:0;z-index:120;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 50% 42%,rgba(245,128,174,.14),transparent 35%),rgba(10,4,9,.97);transition:opacity .9s ease,visibility .9s ease}
+.intro.hide{opacity:0;visibility:hidden;pointer-events:none}
+.intro-inner{text-align:center;max-width:700px}
+.intro .micro{font:600 10px system-ui,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:var(--pink)}
+.intro h2{font-size:clamp(46px,9vw,92px);font-weight:400;line-height:.94;letter-spacing:-.05em;margin:22px 0}
+.intro p{color:var(--muted);font-size:15px;margin:0 auto 30px}
+.intro button{cursor:pointer;border:1px solid rgba(255,190,215,.3);background:rgba(255,255,255,.055);color:#fff;border-radius:999px;padding:14px 25px;font:600 11px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;box-shadow:0 0 50px rgba(241,169,193,.1)}
+.chapter-nav{position:fixed;left:18px;bottom:18px;z-index:55;display:flex;gap:7px;padding:7px;border:1px solid var(--line);background:rgba(20,8,17,.65);backdrop-filter:blur(18px);border-radius:999px;box-shadow:0 10px 40px rgba(0,0,0,.25)}
+.chapter-nav a{width:27px;height:27px;display:grid;place-items:center;border-radius:50%;color:#c9abb8;text-decoration:none;font:600 9px system-ui,sans-serif}
+.chapter-nav a:hover,.chapter-nav a.active{background:rgba(241,169,193,.18);color:#fff}
+.progress{position:fixed;top:0;left:0;width:100%;height:2px;z-index:110;background:transparent}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,#c95f8b,#ffd0df);box-shadow:0 0 12px rgba(255,160,195,.65)}
+.hero .hero-orbit{position:absolute;width:min(70vw,560px);height:min(70vw,560px);border:1px solid rgba(255,190,215,.08);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none}
+.hero .hero-orbit:before,.hero .hero-orbit:after{content:"";position:absolute;border-radius:50%;background:rgba(255,180,210,.7);box-shadow:0 0 22px rgba(255,150,195,.8)}
+.hero .hero-orbit:before{width:4px;height:4px;left:12%;top:23%}.hero .hero-orbit:after{width:3px;height:3px;right:15%;bottom:20%}
+.photo-grid figure{cursor:zoom-in}
+.photo-grid figure:before{content:"View";position:absolute;right:13px;top:13px;z-index:3;padding:7px 10px;border-radius:999px;background:rgba(8,4,7,.45);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(8px);font:600 9px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;opacity:0;transform:translateY(-4px);transition:.3s}
+.photo-grid figure:hover:before{opacity:1;transform:none}
+.lightbox{position:fixed;inset:0;z-index:115;display:grid;place-items:center;padding:20px;background:rgba(5,2,5,.92);backdrop-filter:blur(18px);opacity:0;visibility:hidden;transition:.35s}
+.lightbox.show{opacity:1;visibility:visible}
+.lightbox img{max-width:min(94vw,1200px);max-height:86vh;width:auto;height:auto;object-fit:contain;border-radius:18px;box-shadow:0 30px 100px rgba(0,0,0,.6)}
+.lightbox .close{position:absolute;top:18px;right:18px;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:rgba(30,10,23,.7);color:#fff;font-size:22px}
+.lightbox .lb-caption{position:absolute;bottom:18px;left:20px;right:20px;text-align:center;color:#ead8e1;font:500 12px system-ui,sans-serif}
+.audio-card{position:relative;overflow:hidden}
+.audio-card:before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;left:50%;top:-150px;transform:translateX(-50%);background:rgba(241,169,193,.12);filter:blur(30px)}
+.audio-card .voice-intro{position:relative;margin:20px auto 0;display:inline-flex;align-items:center;gap:8px;color:#f4dce5;font:600 10px system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.audio-card audio{position:relative}
+.reveal-note{margin-top:18px;color:#aa91a0;font:500 11px system-ui,sans-serif}
+.backtop{position:fixed;right:18px;bottom:18px;z-index:55;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(20,8,17,.65);backdrop-filter:blur(15px);color:#fff;opacity:0;transform:translateY(10px);pointer-events:none;transition:.3s}
+.backtop.show{opacity:1;transform:none;pointer-events:auto}
+@media(max-width:760px){
+ .chapter-nav{left:50%;right:auto;transform:translateX(-50%);bottom:10px;max-width:calc(100% - 24px);overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+ .chapter-nav::-webkit-scrollbar{display:none}.chapter-nav a{flex:0 0 27px}
+ .backtop{right:12px;bottom:58px}
+ .hero h1{font-size:clamp(54px,17vw,88px)}
+ .hero .hero-orbit{width:82vw;height:82vw}
+ .photo-grid figure:before{display:none}
+ .lightbox{padding:12px}.lightbox img{max-width:96vw;max-height:80vh;border-radius:14px}
+ .modal-card h2{font-size:clamp(42px,13vw,70px)}
+}
+</style>
+</head>
+<body>
+<div class="ambient"><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="dot d5"></i><i class="dot d6"></i><i class="dot d7"></i><i class="dot d8"></i></div>
+<div class="topbar"><button class="music" id="musicBtn" type="button">♪ <span>Sound</span> OFF</button></div>
+<audio id="bgm" loop preload="metadata"><source src="assets/haareya.mp3" type="audio/mpeg"></audio>
+
+
+<div class="intro" id="intro">
+  <div class="intro-inner">
+    <div class="micro">A little place I made for you</div>
+    <h2>For my<br><span style="color:var(--pink)">Aduu.</span></h2>
+    <p>Headphones on if you can. There are a few things waiting for you inside.</p>
+    <button id="introBtn" type="button">Tap to enter · ♡</button>
+  </div>
+</div>
+<div class="progress"><i id="progressBar"></i></div>
+<nav class="chapter-nav" aria-label="Chapters">
+  <a href="#s01">01</a><a href="#s02">02</a><a href="#s03">03</a><a href="#s04">04</a>
+  <a href="#s05">05</a><a href="#s06">06</a><a href="#s07">07</a><a href="#s08">08</a>
+  <a href="#s09">09</a><a href="#s10">10</a><a href="#s11">11</a><a href="#s12">12</a>
+</nav>
+<button class="backtop" id="backtop" aria-label="Back to top">↑</button>
+
+<div class="modal" id="birthdayModal" role="dialog" aria-modal="true" aria-labelledby="birthdayTitle"><div class="modal-card"><div class="mini">A private birthday corner · for one person</div><h2 id="birthdayTitle">Happy Birthday,<br><span style="color:var(--pink)">Aduu</span> <span class="heart">♥</span></h2><p>I made something for you. Take your time with it. There are a few things here that I wanted you to find slowly.</p><button class="primary" id="enterBtn" type="button">Tap to enter ♡</button></div></div>
+
+<main>
+<section class="hero"><div class="wrap fade in"><div class="eyebrow">01 · Aditya Sharma · Aduu · Paddu · Sharmaji</div><h1>For you,<br>and only you.</h1><p>There are enough days to know one thing for sure: <em>tere jaisa koi nahi.</em></p><div class="scroll">take your time ↓</div></div></section>
+
+<section id="s01"><div class="wrap fade"><div class="chapter"><span class="num">02</span><span class="line"></span><span class="section-kicker">The thing I keep realising</span></div><h2 class="section-title">Roz mujhe pata chalta hai…<br>tere jaisa koi nahi.</h2><div class="prose"><p>Happiest birthday, Sharmaji. Mera Aduu Padduu.</p><p>It’s been a long journey. Long journey nahi bolenge… but there are enough days to know that. Pehle shayad itna samajh nahi aata tha, but ab roz mujhe pata chalta hai — <strong>tere jaisa koi nahi.</strong></p></div></div></section>
+
+<section id="s02"><div class="wrap fade"><div class="chapter"><span class="num">03</span><span class="line"></span><span class="section-kicker">Before everything changed</span></div><h2 class="section-title">The day before I proposed to you…</h2><div class="prose"><p>I still remember. I was imagining the worst possible thing — ki tu haan bolega. Mujhe kabhi nahi lagta tha ki tu mujhe haan bolega, you know.</p><p>Main tere paas isliye nahi aayi thi kyunki tu achha dikhta hai, ya main logon ke saamne flex kar saku. I came because <strong>mujhe tere jaise pehle kisi ne nahi dekha tha.</strong></p><p>Mujhe sab log arrogant, ek gandi ladki samajhte the. But you found me different. Tune un saari cheezon se pyaar kiya — un cheezon se bhi jinse log ek ladki se nafrat kar sakte hain.</p></div></div></section>
+
+<section id="s03"><div class="wrap fade"><div class="chapter"><span class="num">04</span><span class="line"></span><span class="section-kicker">How I see you</span></div><h2 class="section-title">You are a little boy<br>who was finding love.</h2><div class="prose"><p>Jiska bahut pyaar tha. Par pyaar ko shield kar diya. Bas dikhana chahta tha ki he’s a <em>fuckboy.</em></p><div class="quote">“But for me, you are a little happy Aduu boy.”</div><p>And phir mujhe bas… mujhe pyaar ho gaya. Samajh hi nahi aaya mujhe tu kab pyaar karne laga.</p><p>Itna achha ladka… itna achha ladka mere saath. <em>OMG.</em></p></div></div></section>
+
+<section id="s04"><div class="wrap fade"><div class="chapter"><span class="num">05</span><span class="line"></span><span class="section-kicker">The archive</span></div><h2 class="section-title">Not every picture needs a story.<br>Some pictures are the story.</h2><div class="photo-grid">
+<figure><img src="assets/photo01.jpeg" alt="Couple close together"><figcaption class="caption">The kind of closeness that says enough without words.</figcaption></figure>
+<figure><img src="assets/photo02.jpeg" alt="Couple kissing outdoors"><figcaption class="caption">Us, being us.</figcaption></figure>
+<figure><img src="assets/photo03.jpeg" alt="Aditya by the water with a dog"><figcaption class="caption">The boy behind the jokes.</figcaption></figure>
+<figure><img src="assets/photo04.jpeg" alt="Aditya in the mountains"><figcaption class="caption">You, somewhere beautiful.</figcaption></figure>
+<figure><img src="assets/photo05.jpeg" alt="Aditya smiling"><figcaption class="caption">That smile.</figcaption></figure>
+<figure><img src="assets/photo06.jpeg" alt="Couple together at night"><figcaption class="caption">One more memory I’d choose again.</figcaption></figure>
+<figure><img src="assets/photo07.jpeg" alt="Funny selfie"><figcaption class="caption">And yes… this Aduu also exists.</figcaption></figure>
+<figure><img src="assets/photo08.jpeg" alt="Couple at a restaurant"><figcaption class="caption">The ordinary moments that somehow became everything.</figcaption></figure>
+<figure><img src="assets/photo09.jpeg" alt="Couple in a car"><figcaption class="caption">A little sunlight. A little us.</figcaption></figure>
+<figure><img src="assets/photo10.jpeg" alt="Aditya smiling in a vest"><figcaption class="caption">Sharmaji in his many forms.</figcaption></figure>
+</div></div></section>
+
+<section id="s05"><div class="wrap fade"><div class="chapter"><span class="num">06</span><span class="line"></span><span class="section-kicker">1.5 years</span></div><h2 class="section-title">And now… it’s your birthday.</h2><div class="prose"><p>It’s been 1.5 years in… and it’s your bday!</p><p>I don’t want to make you emotional. I want to make you happy. Har saal aisi cheez karna chahti hoon. Tujhe khush… jeetne khush rehta hua dekhna chahti hoon. Really.</p></div></div></section>
+
+<section id="s06"><div class="wrap fade"><div class="chapter"><span class="num">07</span><span class="line"></span><span class="section-kicker">If someday life takes us elsewhere</span></div><h2 class="section-title">I still want that hug.</h2><div class="prose"><p>Hum jo alag ho jayenge kuch saal baad… I want to hug again.</p><p>Tune kya bola tha? Tune bola tha ki jab hum phir se milenge — after we have been each other — hum jo mile, hum gale lagenge.</p><p>Jitne saal saath the, woh saari memories yaad rahengi.</p><p>Sometimes it’s really hard to swallow. But I feel like I gave my bestest part of my age, of my life, tujhe diya hai.</p><div class="quote">And it’s worth it.</div></div></div></section>
+
+<section id="s07"><div class="wrap fade"><div class="chapter"><span class="num">08</span><span class="line"></span><span class="section-kicker">The flower thought</span></div><h2 class="section-title">Maybe we are like flowers.</h2><div class="prose"><p>People say flowers are the most beautiful thing. We can’t keep them forever. They dry out.</p><p>That’s what we are. <strong>We are like flowers.</strong></p><p>Maybe it’s not the end of it. But we are charming, shiny… and beautiful while it lasts. And I genuinely love that.</p></div></div></section>
+
+<section id="s08"><div class="wrap fade"><div class="chapter"><span class="num">09</span><span class="line"></span><span class="section-kicker">Something private</span></div><h2 class="section-title">Some things I never thought<br>I would be comfortable with.</h2><div class="prose"><p>It’s been so nice sharing a bed together, skin to skin, feeling each other.</p><p>Jab ye sab cheezon mein main uncomfortable thi, woh tere saath karna… jo cheez sirf Insta pe dekhti thi, main sochti thi ki main kabhi nahi kar sakti — even after years, ages.</p><p>With you, I did.</p></div></div></section>
+
+<section id="s09"><div class="wrap fade audio-reveal"><div class="chapter"><span class="num">10</span><span class="line"></span><span class="section-kicker">Before you continue</span></div><div class="glass audio-card"><h3>Listen to this, Aduu.</h3><p>Just a little over 30 seconds. Put your headphones on. I want you to hear this one from me.</p><div class="voice-intro">♡ A voice note from Prachi</div><audio id="voice" controls preload="metadata"><source src="assets/voice-note.m4a" type="audio/mp4"><source src="assets/voice-note.ogg" type="audio/ogg"></audio></div></div></section>
+
+<section id="s10"><div class="wrap fade lock"><div class="chapter" style="justify-content:center"><span class="num">11</span><span class="line"></span><span class="section-kicker">One last little secret</span></div><h2 class="section-title">Before you get the video…<br>I need proof you know me.</h2><div class="glass lockbox"><div class="question">How many moles do I have on my body?</div><form class="answer" id="moleForm"><input id="moleAnswer" inputmode="numeric" autocomplete="off" placeholder="Your answer…" aria-label="How many moles" required><button type="submit">Unlock</button></form><div class="hint" id="moleHint" aria-live="polite"></div><div class="video-wrap" id="videoWrap"><div class="unlocked">Secret unlocked · only for Aditya</div><video id="secretVideo" controls playsinline preload="metadata"><source src="assets/secret-video.mp4" type="video/mp4"></video></div></div></div></section>
+
+<section class="final"><div class="wrap fade"><div class="divider"></div><div class="section-kicker">12 · Happy birthday, my Aduu</div><div class="signature">“Prachi Mukherjee will always be,<br>all yours, baby.”</div><p class="prose" style="margin:0 auto">I love you so much.<br>Happiest birthday. Happy birthday. My Aduu. ❤️</p><div style="margin-top:35px" class="tiny">Made with every little memory I could fit into one place.</div></div></section>
+</main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="close" id="lbClose" type="button" aria-label="Close">×</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<script>
+(()=>{
+const $=id=>document.getElementById(id);
+const modal=$('birthdayModal'), enter=$('enterBtn'), intro=$('intro'), introBtn=$('introBtn');
+const bgm=$('bgm'), musicBtn=$('musicBtn'), voice=$('voice'), video=$('secretVideo');
+const form=$('moleForm'), input=$('moleAnswer'), hint=$('moleHint'), videoWrap=$('videoWrap');
+const progress=$('progressBar'), backtop=$('backtop'), lightbox=$('lightbox'), lbImg=$('lbImg'), lbCaption=$('lbCaption'), lbClose=$('lbClose');
+let musicOn=false;
+
+function updateMusic(){musicBtn.innerHTML='♪ <span>Sound</span> '+(musicOn?'ON':'OFF')}
+async function playMusic(){
+  try{await bgm.play();musicOn=true}catch(e){musicOn=false}
+  updateMusic();
+}
+function pauseMusic(){bgm.pause();musicOn=false;updateMusic()}
+
+introBtn.addEventListener('click',()=>{
+  intro.classList.add('hide');
+  setTimeout(()=>modal.classList.remove('hidden'),650);
+});
+enter.addEventListener('click',async()=>{
+  modal.classList.add('hidden');
+  document.body.style.overflow='auto';
+  await playMusic();
+  window.scrollTo({top:0,behavior:'instant'});
+});
+musicBtn.addEventListener('click',async()=>musicOn?pauseMusic():playMusic());
+
+voice.addEventListener('play',pauseMusic);
+voice.addEventListener('ended',playMusic);
+video.addEventListener('play',pauseMusic);
+video.addEventListener('ended',playMusic);
+
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  const v=input.value.trim();
+  if(v==='8'){
+    hint.textContent='Correct. Of course you knew. ❤️';
+    videoWrap.classList.add('show');
+    setTimeout(()=>videoWrap.scrollIntoView({behavior:'smooth',block:'center'}),250);
+  }else{
+    hint.textContent='Hmm… Aduu, think properly. You know this. 😭';
+    input.select();
+  }
+});
+
+document.querySelectorAll('.photo-grid figure').forEach(fig=>{
+  const img=fig.querySelector('img');
+  fig.addEventListener('click',()=>{
+    lbImg.src=img.currentSrc||img.src;
+    lbImg.alt=img.alt;
+    lbCaption.textContent=fig.querySelector('.caption')?.textContent||'';
+    lightbox.classList.add('show');
+    document.body.classList.add('lightbox-open');
+  });
+});
+function closeLightbox(){lightbox.classList.remove('show');lbImg.src='';document.body.classList.remove('lightbox-open')}
+lbClose.addEventListener('click',closeLightbox);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closeLightbox();
+  if(e.key==='Enter' && document.activeElement===input)form.requestSubmit();
+});
+
+const obs=new IntersectionObserver(entries=>entries.forEach(en=>{
+  if(en.isIntersecting)en.target.classList.add('in')
+}),{threshold:.1});
+document.querySelectorAll('.fade:not(.in)').forEach(x=>obs.observe(x));
+
+const navLinks=[...document.querySelectorAll('.chapter-nav a')];
+const sections=[...document.querySelectorAll('main section[id]')];
+const sectionObs=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(en.isIntersecting){
+      navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id));
+    }
+  });
+},{rootMargin:'-35% 0px -55% 0px',threshold:0});
+sections.forEach(s=>sectionObs.observe(s));
+
+function onScroll(){
+  const doc=document.documentElement;
+  const max=doc.scrollHeight-innerHeight;
+  progress.style.width='100%'; progress.style.transform=`scaleX(${max>0?scrollY/max:0})`; progress.style.transformOrigin='left';
+  backtop.classList.toggle('show',scrollY>700);
+}
+addEventListener('scroll',onScroll,{passive:true});
+backtop.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden) bgm.pause();
+});
+document.body.style.overflow='hidden';
+updateMusic();onScroll();
+})();
+</script>
+</body></html>
